@@ -1,0 +1,18 @@
+{
+  "type": "mdex:modded_ore",
+  "config": {
+    "modids": [],
+    "size": 9,
+    "discard_chance_on_air_exposure": 0.0,
+    "targets": [
+      {
+        "target": { "type": "minecraft:tag", "tag": "mdcdi1315_md:md_stone_blocks" },
+        "state": { "Name": "minecraft:iron_ore" }
+      },
+      {
+        "target": { "type": "minecraft:tag", "tag": "mdcdi1315_md:md_deepslate_blocks" },
+        "state": { "Name": "minecraft:deepslate_iron_ore" }
+      }
+    ]
+  }
+}

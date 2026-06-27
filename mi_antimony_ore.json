@@ -1,0 +1,18 @@
+{
+  "type": "mdex:modded_ore",
+  "config": {
+    "modids": ["create"],
+    "size": 9,
+    "discard_chance_on_air_exposure": 0.0,
+    "targets": [
+      {
+        "target": { "type": "minecraft:tag", "tag": "mdcdi1315_md:md_stone_blocks" },
+        "state": { "Name": "create:zinc_ore" }
+      },
+      {
+        "target": { "type": "minecraft:tag", "tag": "mdcdi1315_md:md_deepslate_blocks" },
+        "state": { "Name": "create:deepslate_zinc_ore" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "feature": "mdex_default_exp:mi_monazite_ore",
+  "placement": [
+    { "type": "minecraft:count", "count": 5 },
+    { "type": "minecraft:in_square" },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:triangle",
+        "min_inclusive": { "absolute": -48 },
+        "max_inclusive": { "absolute": 32 }
+      }
+    }
+  ]
+}
